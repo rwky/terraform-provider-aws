@@ -33,6 +33,3 @@ matrix:
 install:
   - make tools
 
-branches:
-  only:
-    - master
