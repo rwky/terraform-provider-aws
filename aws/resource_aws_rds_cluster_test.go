@@ -3488,6 +3488,7 @@ resource "aws_rds_cluster" "test" {
   }
 }
 `, rName, enableHttpEndpoint)
+}
 
 func testAccAWSRDSClusterConfig_pointInTimeRestore(n int) string {
 	return fmt.Sprintf(`
